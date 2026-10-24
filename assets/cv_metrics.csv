@@ -1,0 +1,6 @@
+,mean,std
+accuracy,0.777,0.019
+precision,0.76,0.061
+recall,0.533,0.019
+f1,0.625,0.023
+roc_auc,0.846,0.011

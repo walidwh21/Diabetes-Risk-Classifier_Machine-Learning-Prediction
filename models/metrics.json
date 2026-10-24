@@ -1,0 +1,30 @@
+{
+  "best_params": {
+    "svm__C": 1,
+    "svm__gamma": 0.01,
+    "svm__kernel": "rbf"
+  },
+  "cv_roc_auc": 0.8463,
+  "test": {
+    "accuracy": 0.7078,
+    "precision": 0.6098,
+    "recall (sensitivity)": 0.463,
+    "specificity": 0.84,
+    "f1": 0.5263,
+    "roc_auc": 0.8052
+  },
+  "kernel_comparison": {
+    "accuracy": {
+      "linear": 0.788,
+      "poly": 0.738,
+      "rbf": 0.78,
+      "sigmoid": 0.717
+    },
+    "roc_auc": {
+      "linear": 0.845,
+      "poly": 0.81,
+      "rbf": 0.833,
+      "sigmoid": 0.773
+    }
+  }
+}
