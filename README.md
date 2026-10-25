@@ -55,7 +55,7 @@ Three design decisions shape the project:
 
 ```bash
 # 1. Get the code and create an environment
-git clone <your-repository-url> diabetes-risk-svm
+git clone https://github.com/walidwh21/Diabetes-Risk-Classifier_Machine-Learning-Prediction diabetes-risk-svm
 cd diabetes-risk-svm
 python -m venv .venv && source .venv/bin/activate      # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
